@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { NavBar } from "./NavBar";
 import { Footer } from "./Footer";
 import "./ProjectDetail.css";
+import { isAdmin, isUser } from "../auth/auth";
 
 export default function ProjectDetail() {
   const { id } = useParams();
@@ -10,6 +11,10 @@ export default function ProjectDetail() {
   const [project, setProject] = useState(null);
   const [cardData, setCardData] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [activeTab, setActiveTab] = useState("Tab1");
+
+  const role = isAdmin() ? "admin" : isUser() ? "user" : "guest";
+  const tabs = role === "admin" ? ["Tab1", "Tab2", "Tab3", "Tab4", "Tab5"] : ["Tab1", "Tab2", "Tab3"];
 
   useEffect(() => {
     const fetchProject = async () => {
@@ -62,6 +67,18 @@ export default function ProjectDetail() {
             {project.status}
           </span>
         </div>
+        {/* Tabs (role-aware) */}
+        <div className="project-tabs">
+          {tabs.map((t) => (
+            <button
+              key={t}
+              className={`tab-button ${activeTab === t ? "active" : ""}`}
+              onClick={() => setActiveTab(t)}
+            >
+              {t}
+            </button>
+          ))}
+        </div>
 
         <div className="project-stats">
           <div className="stat-card">
@@ -81,21 +98,55 @@ export default function ProjectDetail() {
             <p>Pending</p>
           </div>
         </div>
-
-        <h2>Project Tasks</h2>
-        <div className="cards-grid">
-          {cardData.map((card) => (
-            <div key={card.id} className="task-card">
-              <img src={card.img} alt={card.title} />
-              <div className="card-body">
-                <h5>{card.title}</h5>
-                <p>{card.description}</p>
-                <span className={`task-status ${card.status.toLowerCase()}`}>
-                  {card.status}
-                </span>
+        {/* Tab content */}
+        <div className="tab-content">
+          {activeTab === "Tab1" && (
+            <>
+              <h2>Project Tasks</h2>
+              <div className="cards-grid">
+                {cardData.map((card) => (
+                  <div key={card.id} className="task-card">
+                    <img src={card.img} alt={card.title} />
+                    <div className="card-body">
+                      <h5>{card.title}</h5>
+                      <p>{card.description}</p>
+                      <span className={`task-status ${card.status.toLowerCase()}`}>
+                        {card.status}
+                      </span>
+                    </div>
+                  </div>
+                ))}
               </div>
+            </>
+          )}
+
+          {activeTab === "Tab2" && (
+            <div>
+              <h3>Overview</h3>
+              <p>Overview content tailored for the {role} role.</p>
             </div>
-          ))}
+          )}
+
+          {activeTab === "Tab3" && (
+            <div>
+              <h3>Activity</h3>
+              <p>Activity feed and recent changes.</p>
+            </div>
+          )}
+
+          {role === "admin" && activeTab === "Tab4" && (
+            <div>
+              <h3>Admin Filters</h3>
+              <p>Admin-only filters and controls (export, advanced filters).</p>
+            </div>
+          )}
+
+          {role === "admin" && activeTab === "Tab5" && (
+            <div>
+              <h3>Admin Reports</h3>
+              <p>Detailed reports visible only to admins.</p>
+            </div>
+          )}
         </div>
       </div>
       </div>

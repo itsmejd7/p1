@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { NavBar } from "./NavBar";
 import { Footer } from "./Footer";
 import "./ProjectsList.css";
+import { isAdmin, isUser } from "../auth/auth";
 
 export default function ProjectsList() {
   const [projects, setProjects] = useState([]);
@@ -11,9 +12,11 @@ export default function ProjectsList() {
 
   useEffect(() => {
     fetch("http://localhost:5000/api/projects")
-      .then(res => res.json())
-      .then(data => {
-        setProjects(data);
+      .then((res) => res.json())
+      .then((data) => {
+        // Role-based filtering: admins see all, users see a subset
+        const filtered = isAdmin() ? data : data.slice(0, 2);
+        setProjects(filtered);
         setLoading(false);
       })
       .catch(() => setLoading(false));
@@ -27,7 +30,7 @@ export default function ProjectsList() {
       <div className="projects-container">
         <h1>Tata Motors - Projects</h1>
         <div className="projects-grid">
-          {projects.map(project => (
+          {projects.map((project) => (
             <div
               key={project.id}
               className="project-card"
