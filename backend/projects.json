@@ -1,0 +1,559 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "slug": "tata-nexon",
+      "name": "Tata Nexon",
+      "status": "Active",
+      "description": "Compact SUV with strong safety ratings and petrol, diesel, and EV options.",
+      "modelYear": "2024",
+      "bodyType": "Compact SUV",
+      "fuelOptions": ["Petrol", "Diesel", "Electric"],
+      "seatingCapacity": "5 Seater",
+      "launchYear": "2023",
+      "startingPrice": "₹7.99 Lakhs",
+      "heroImage": "https://s7ap1.scene7.com/is/image/tatamotors/GrasslandBeige-0-2?$PO-750-500-S$&fit=crop&fmt=avif-alpha",
+      "highlights": [
+        "5-star GNCAP safety rating",
+        "6 airbags with advanced safety features",
+        "Connected car technology",
+        "Up to 390 km range (EV variant)",
+        "7-inch touchscreen with Apple CarPlay",
+        "Powerful engine options with excellent performance"
+      ],
+      "performance": {
+        "engines": [
+          {
+            "name": "1.2L Turbo Petrol",
+            "power": 120,
+            "torque": 200,
+            "acceleration": 10.5,
+            "topSpeed": 185,
+            "transmission": "Manual / Automatic"
+          },
+          {
+            "name": "1.5L Diesel",
+            "power": 110,
+            "torque": 260,
+            "acceleration": 11.2,
+            "topSpeed": 175,
+            "transmission": "Manual / Automatic"
+          },
+          {
+            "name": "40 kWh Electric",
+            "power": 127,
+            "torque": 245,
+            "acceleration": 9.8,
+            "topSpeed": 160,
+            "transmission": "Automatic"
+          }
+        ],
+        "driveModes": ["City", "Highway", "Sport (Petrol only)"],
+        "transmissionOptions": ["Manual", "Automatic (AMT)", "Automatic (Torque Converter - EV)"]
+      },
+      "variants": [
+        { "name": "XE", "fuel": "Petrol", "transmission": "Manual", "mileage": "18 kmpl", "price": "₹7.99L" },
+        { "name": "XE", "fuel": "Diesel", "transmission": "Manual", "mileage": "20 kmpl", "price": "₹8.99L" },
+        { "name": "XM", "fuel": "Petrol", "transmission": "Automatic", "mileage": "17 kmpl", "price": "₹9.49L" },
+        { "name": "XZ+", "fuel": "Diesel", "transmission": "Automatic", "mileage": "19 kmpl", "price": "₹11.99L" },
+        { "name": "EV", "fuel": "Electric", "transmission": "Automatic", "mileage": "390 km/charge", "price": "₹14.99L" }
+      ],
+      "specifications": {
+        "engine": [
+          { "type": "1.2L Turbo Petrol", "power": "120 HP @ 5000 rpm", "torque": "200 Nm @ 2000-3500 rpm", "maxSpeed": "185 km/h" },
+          { "type": "1.5L Diesel", "power": "110 HP @ 4000 rpm", "torque": "260 Nm @ 1400-2800 rpm", "maxSpeed": "175 km/h" },
+          { "type": "40 kWh Electric", "power": "127 kW", "torque": "245 Nm instant", "maxSpeed": "160 km/h" }
+        ],
+        "dimensions": {
+          "length": "3,996 mm",
+          "width": "1,821 mm",
+          "height": "1,606 mm",
+          "wheelbase": "2,498 mm",
+          "groundClearance": "200 mm",
+          "curb_weight": "1,210 kg (petrol), 1,275 kg (diesel), 1,440 kg (EV)",
+          "bootSpace": "350L",
+          "fuelTank": "50L (Petrol/Diesel), N/A (EV)"
+        },
+        "chassis": {
+          "suspension": "Independent double wishbone (Front), Torsion beam (Rear)",
+          "steering": "Electric Power Steering",
+          "brakes": "Disc (Front), Drum (Rear) with ABS+EBD",
+          "tyres": "215/60 R16 or 215/55 R17 (Optional)"
+        }
+      },
+      "features": {
+        "safety": [
+          "6 Airbags (Driver, Passenger, Side, Curtain)",
+          "ABS with Electronic Brakeforce Distribution",
+          "Traction Control System",
+          "Electronic Stability Program",
+          "ISOFIX child seat anchors",
+          "Reinforced frame structure",
+          "Automatic Emergency Braking",
+          "Lane Departure Warning"
+        ],
+        "comfort": [
+          "Dual-zone automatic climate control",
+          "All-power windows with one-touch operation",
+          "Power steering with adjustment",
+          "Cruise control",
+          "Rear air conditioning vents",
+          "Height-adjustable driver seat",
+          "Rear parking assist camera",
+          "Panoramic sunroof (Select variants)"
+        ],
+        "infotainment": [
+          "7-inch touchscreen display",
+          "Apple CarPlay & Android Auto",
+          "Bluetooth connectivity",
+          "6-speaker sound system",
+          "Voice command recognition",
+          "Connected car app integration",
+          "SMS and music streaming support"
+        ],
+        "exterior": [
+          "LED daytime running lights",
+          "Electrically adjustable side mirrors",
+          "Power windows with rain-sensing wipers",
+          "Roof-mounted spoiler",
+          "Skid plates and body cladding",
+          "Dual exhaust pipes"
+        ],
+        "interior": [
+          "Premium upholstery with fabric or leather",
+          "Adjustable steering wheel",
+          "Ambient interior lighting",
+          "Door sill plates",
+          "Dual front sun visors",
+          "Bottle holders in door panels"
+        ]
+      },
+      "safety": {
+        "gncap_rating": "5-star",
+        "gncap_score": "88.89% Adult Occupant",
+        "airbags": 6,
+        "safetyTechs": [
+          "ABS with EBD",
+          "Traction Control",
+          "Electronic Stability Program",
+          "Automatic Emergency Braking",
+          "Lane Departure Warning",
+          "Blind Spot Monitor"
+        ]
+      },
+      "gallery": {
+        "exterior": [
+          "https://via.placeholder.com/400x300?text=Nexon+Front",
+          "https://via.placeholder.com/400x300?text=Nexon+Side",
+          "https://via.placeholder.com/400x300?text=Nexon+Rear",
+          "https://via.placeholder.com/400x300?text=Nexon+Top"
+        ],
+        "interior": [
+          "https://via.placeholder.com/400x300?text=Nexon+Dashboard",
+          "https://via.placeholder.com/400x300?text=Nexon+Seats",
+          "https://via.placeholder.com/400x300?text=Nexon+Interior",
+          "https://via.placeholder.com/400x300?text=Nexon+Boot"
+        ]
+      },
+      "comparison": [
+        { "model": "Tata Nexon", "price": "7.99L", "mileage": 18, "safety": 90, "power": 120, "features": 85 },
+        { "model": "Maruti Brezza", "price": "8.49L", "mileage": 17, "safety": 85, "power": 100, "features": 75 },
+        { "model": "Hyundai Venue", "price": "7.42L", "mileage": 16, "safety": 80, "power": 95, "features": 70 }
+      ],
+      "dealers": [
+        { "city": "Mumbai", "name": "Tata Motors - Andheri", "address": "Andheri, Mumbai", "phone": "+91-22-1234-5678", "hours": "10:00 AM - 7:00 PM" },
+        { "city": "Delhi", "name": "Tata Motors - Dwarka", "address": "Dwarka, Delhi", "phone": "+91-11-2345-6789", "hours": "10:00 AM - 7:00 PM" },
+        { "city": "Bangalore", "name": "Tata Motors - Whitefield", "address": "Whitefield, Bangalore", "phone": "+91-80-3456-7890", "hours": "10:00 AM - 8:00 PM" },
+        { "city": "Hyderabad", "name": "Tata Motors - Hitech City", "address": "Hitech City, Hyderabad", "phone": "+91-40-4567-8901", "hours": "10:00 AM - 7:00 PM" }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "tata-punch",
+      "name": "Tata Punch",
+      "status": "Active",
+      "description": "Micro SUV designed for city driving with high ground clearance.",
+      "modelYear": "2024",
+      "bodyType": "Micro SUV",
+      "fuelOptions": ["Petrol", "CNG"],
+      "seatingCapacity": "5 Seater",
+      "launchYear": "2021",
+      "startingPrice": "₹5.49 Lakhs",
+      "heroImage": "https://s7ap1.scene7.com/is/image/tatamotors/Cyantific-0?$PO-750-500-S$&fit=crop&fmt=avif-alpha",
+      "highlights": [
+        "Compact and feature-rich",
+        "Excellent for city commute",
+        "Strong build quality",
+        "CNG option for fuel economy",
+        "Good ground clearance",
+        "Affordable pricing"
+      ],
+      "performance": {
+        "engines": [
+          {
+            "name": "1.2L Petrol",
+            "power": 86,
+            "torque": 113,
+            "acceleration": 12.5,
+            "topSpeed": 160,
+            "transmission": "Manual / Automatic"
+          },
+          {
+            "name": "1.2L CNG",
+            "power": 77,
+            "torque": 100,
+            "acceleration": 14.2,
+            "topSpeed": 150,
+            "transmission": "Manual"
+          }
+        ],
+        "driveModes": ["City", "Highway"],
+        "transmissionOptions": ["Manual", "Automatic (AMT)"]
+      },
+      "variants": [
+        { "name": "Pure", "fuel": "Petrol", "transmission": "Manual", "mileage": "19 kmpl", "price": "₹5.49L" },
+        { "name": "Pure", "fuel": "CNG", "transmission": "Manual", "mileage": "24 km/kg", "price": "₹6.49L" },
+        { "name": "Adventure", "fuel": "Petrol", "transmission": "Automatic", "mileage": "18 kmpl", "price": "₹7.29L" }
+      ],
+      "specifications": {
+        "engine": [
+          { "type": "1.2L Petrol", "power": "86 HP @ 6000 rpm", "torque": "113 Nm @ 3400 rpm", "maxSpeed": "160 km/h" },
+          { "type": "1.2L CNG", "power": "77 HP @ 5500 rpm", "torque": "100 Nm @ 3200 rpm", "maxSpeed": "150 km/h" }
+        ],
+        "dimensions": {
+          "length": "3,840 mm",
+          "width": "1,740 mm",
+          "height": "1,595 mm",
+          "wheelbase": "2,400 mm",
+          "groundClearance": "200 mm",
+          "curb_weight": "980 kg (petrol), 1,020 kg (CNG)",
+          "bootSpace": "260L",
+          "fuelTank": "42L (Petrol), 40L + 45L (CNG)"
+        },
+        "chassis": {
+          "suspension": "Independent strut (Front), Torsion beam (Rear)",
+          "steering": "Manual / Electric Power Steering",
+          "brakes": "Disc (Front), Drum (Rear)",
+          "tyres": "185/65 R15"
+        }
+      },
+      "features": {
+        "safety": [
+          "2 Airbags",
+          "ABS with EBD",
+          "ISOFIX child seat anchors",
+          "Central locking"
+        ],
+        "comfort": [
+          "Air conditioning",
+          "Power steering",
+          "All-power windows",
+          "Height-adjustable driver seat"
+        ],
+        "infotainment": [
+          "Touchscreen infotainment (select variants)",
+          "Bluetooth connectivity",
+          "USB ports"
+        ],
+        "exterior": [
+          "LED DRL",
+          "Roof rails",
+          "Skid plates",
+          "Alloy wheels (select variants)"
+        ],
+        "interior": [
+          "Fabric upholstery",
+          "Adjustable steering wheel",
+          "Cup holders",
+          "Door pockets"
+        ]
+      },
+      "safety": {
+        "gncap_rating": "4-star",
+        "gncap_score": "76.82% Adult Occupant",
+        "airbags": 2,
+        "safetyTechs": [
+          "ABS with EBD",
+          "Central locking",
+          "Reverse parking sensor"
+        ]
+      },
+      "gallery": {
+        "exterior": [
+          "https://via.placeholder.com/400x300?text=Punch+Front",
+          "https://via.placeholder.com/400x300?text=Punch+Side",
+          "https://via.placeholder.com/400x300?text=Punch+Rear",
+          "https://via.placeholder.com/400x300?text=Punch+Top"
+        ],
+        "interior": [
+          "https://via.placeholder.com/400x300?text=Punch+Dashboard",
+          "https://via.placeholder.com/400x300?text=Punch+Seats",
+          "https://via.placeholder.com/400x300?text=Punch+Interior",
+          "https://via.placeholder.com/400x300?text=Punch+Boot"
+        ]
+      },
+      "comparison": [
+        { "model": "Tata Punch", "price": "5.49L", "mileage": 19, "safety": 75, "power": 86, "features": 65 },
+        { "model": "Maruti S-Presso", "price": "4.85L", "mileage": 23, "safety": 70, "power": 68, "features": 60 },
+        { "model": "Renault Kwid", "price": "5.00L", "mileage": 22, "safety": 72, "power": 72, "features": 62 }
+      ],
+      "dealers": [
+        { "city": "Mumbai", "name": "Tata Motors - Punch Mumbai", "address": "Andheri, Mumbai", "phone": "+91-22-1234-5678", "hours": "10:00 AM - 7:00 PM" },
+        { "city": "Delhi", "name": "Tata Motors - Punch Delhi", "address": "Dwarka, Delhi", "phone": "+91-11-2345-6789", "hours": "10:00 AM - 7:00 PM" }
+      ]
+    },
+    {
+  "id": 3,
+  "slug": "tata-harrier",
+  "name": "Tata Harrier",
+  "status": "Active",
+  "description": "Mid-size SUV with premium interiors and powerful diesel performance.",
+  "modelYear": "2024",
+  "bodyType": "Mid-size SUV",
+  "fuelOptions": ["Diesel"],
+  "seatingCapacity": "5 Seater",
+  "launchYear": "2019",
+  "startingPrice": "₹15.49 Lakhs",
+  "heroImage": "https://s7ap1.scene7.com/is/image/tatamotors/find-dealership-new?$B-1920-667-D$&fit=crop&fmt=avif-alpha",
+  "highlights": [
+    "OmegaArc platform",
+    "Powerful Kryotec diesel engine",
+    "Panoramic sunroof",
+    "Advanced ADAS features",
+    "Premium JBL sound system"
+  ],
+  "performance": {
+    "engines": [
+      {
+        "name": "2.0L Diesel",
+        "power": 170,
+        "torque": 350,
+        "acceleration": 9.9,
+        "topSpeed": 195,
+        "transmission": "Manual / Automatic"
+      }
+    ],
+    "driveModes": ["Eco", "City", "Sport"],
+    "transmissionOptions": ["Manual", "Automatic"]
+  },
+  "variants": [
+    { "name": "XE", "fuel": "Diesel", "transmission": "Manual", "mileage": "16.8 kmpl", "price": "₹15.49L" },
+    { "name": "XZ", "fuel": "Diesel", "transmission": "Manual", "mileage": "16.8 kmpl", "price": "₹18.29L" },
+    { "name": "XZA+", "fuel": "Diesel", "transmission": "Automatic", "mileage": "16.5 kmpl", "price": "₹22.49L" }
+  ],
+  "specifications": {
+    "engine": [
+      { "type": "2.0L Diesel", "power": "170 HP", "torque": "350 Nm", "maxSpeed": "195 km/h" }
+    ],
+    "dimensions": {
+      "length": "4,598 mm",
+      "width": "1,894 mm",
+      "height": "1,706 mm",
+      "wheelbase": "2,741 mm",
+      "groundClearance": "205 mm",
+      "bootSpace": "425L"
+    }
+  },
+  "safety": {
+    "gncap_rating": "5-star",
+    "airbags": 6,
+    "safetyTechs": ["ESP", "ABS with EBD", "ADAS", "Hill Hold Control"]
+  }
+},{
+  "id": 4,
+  "slug": "tata-safari",
+  "name": "Tata Safari",
+  "status": "Active",
+  "description": "7-seater flagship SUV designed for comfort and long journeys.",
+  "modelYear": "2024",
+  "bodyType": "Full-size SUV",
+  "fuelOptions": ["Diesel"],
+  "seatingCapacity": "6 / 7 Seater",
+  "launchYear": "2021",
+  "startingPrice": "₹16.19 Lakhs",
+  "heroImage": "https://s7ap1.scene7.com/is/image/tatamotors/oberonblack-0-1?$PO-750-500-S$&fit=crop&fmt=avif-alpha",
+  "highlights": [
+    "Spacious 3-row seating",
+    "Captain seat option",
+    "Advanced safety features",
+    "Premium interiors"
+  ],
+  "performance": {
+    "engines": [
+      {
+        "name": "2.0L Diesel",
+        "power": 170,
+        "torque": 350,
+        "acceleration": 10.2,
+        "topSpeed": 190,
+        "transmission": "Manual / Automatic"
+      }
+    ],
+    "driveModes": ["Eco", "City", "Sport"],
+    "transmissionOptions": ["Manual", "Automatic"]
+  },
+  "variants": [
+    { "name": "XE", "fuel": "Diesel", "transmission": "Manual", "mileage": "16.3 kmpl", "price": "₹16.19L" },
+    { "name": "XZ+", "fuel": "Diesel", "transmission": "Automatic", "mileage": "14.5 kmpl", "price": "₹24.79L" }
+  ],
+  "safety": {
+    "gncap_rating": "5-star",
+    "airbags": 6,
+    "safetyTechs": ["ESP", "Hill Descent Control", "ADAS"]
+  }
+},{
+  "id": 5,
+  "slug": "tata-curvv",
+  "name": "Tata Curvv",
+  "status": "In Progress",
+  "description": "Upcoming coupe-style SUV with futuristic design.",
+  "modelYear": "2025",
+  "bodyType": "Coupe SUV",
+  "fuelOptions": ["Petrol", "Electric"],
+  "seatingCapacity": "5 Seater",
+  "launchYear": "2025",
+  "startingPrice": "₹11.00 Lakhs (Expected)",
+  "heroImage": "https://s7ap1.scene7.com/is/image/tatamotors/GoldEssence-0-2?$PO-750-500-S$&fit=crop&fmt=avif-alpha",
+  "highlights": [
+    "Coupe SUV styling",
+    "Next-gen interiors",
+    "EV-first platform",
+    "Advanced connectivity"
+  ],
+  "performance": {
+    "engines": [
+      {
+        "name": "Electric (Concept)",
+        "power": 150,
+        "torque": 280,
+        "acceleration": 8.5,
+        "topSpeed": 170,
+        "transmission": "Automatic"
+      }
+    ],
+    "driveModes": ["Eco", "Sport"],
+    "transmissionOptions": ["Automatic"]
+  }
+},{
+  "id": 6,
+  "slug": "tata-sierra",
+  "name": "Tata Sierra (New)",
+  "status": "In Progress",
+  "description": "Modern electric SUV inspired by the iconic Tata Sierra with premium design and next-gen technology.",
+  "modelYear": "2025",
+  "bodyType": "Mid-size SUV",
+  "fuelOptions": ["Electric"],
+  "seatingCapacity": "5 Seater",
+  "launchYear": "2025",
+  "startingPrice": "₹15.00 Lakhs (Expected)",
+  "heroImage": "https://s7ap1.scene7.com/is/image/tatamotors/AndamanAdventure-25?$PO-1228-468-S$&fit=crop&fmt=avif-alpha",
+  "highlights": [
+    "Iconic Sierra design revival",
+    "All-electric powertrain",
+    "Panoramic glass roof",
+    "Large connected infotainment display",
+    "Premium sustainable interiors",
+    "Advanced ADAS features"
+  ],
+  "performance": {
+    "engines": [
+      {
+        "name": "Electric Motor (Gen-2)",
+        "power": 170,
+        "torque": 350,
+        "acceleration": 8.2,
+        "topSpeed": 180,
+        "transmission": "Automatic"
+      }
+    ],
+    "driveModes": ["Eco", "City", "Sport"],
+    "transmissionOptions": ["Automatic"]
+  },
+  "variants": [
+    { "name": "Base EV", "fuel": "Electric", "transmission": "Automatic", "mileage": "450 km/charge", "price": "₹15.00L (Expected)" },
+    { "name": "Premium EV", "fuel": "Electric", "transmission": "Automatic", "mileage": "500 km/charge", "price": "₹18.00L (Expected)" }
+  ],
+  "specifications": {
+    "engine": [
+      {
+        "type": "Electric Motor",
+        "power": "170 PS",
+        "torque": "350 Nm instant",
+        "maxSpeed": "180 km/h"
+      }
+    ],
+    "dimensions": {
+      "length": "4,300 mm",
+      "width": "1,850 mm",
+      "height": "1,650 mm",
+      "wheelbase": "2,700 mm",
+      "groundClearance": "205 mm",
+      "bootSpace": "450L"
+    },
+    "chassis": {
+      "suspension": "Independent McPherson (Front), Multi-link (Rear)",
+      "steering": "Electric Power Steering",
+      "brakes": "Disc (Front & Rear)",
+      "tyres": "215/60 R17"
+    }
+  },
+  "features": {
+    "safety": [
+      "6 Airbags",
+      "ADAS Level 2",
+      "ABS with EBD",
+      "Electronic Stability Program",
+      "ISOFIX child seat mounts"
+    ],
+    "comfort": [
+      "Dual-zone climate control",
+      "Ventilated front seats",
+      "Panoramic glass roof",
+      "Wireless phone charging"
+    ],
+    "infotainment": [
+      "12.3-inch touchscreen infotainment",
+      "Fully digital instrument cluster",
+      "Connected car technology",
+      "OTA updates"
+    ],
+    "exterior": [
+      "LED DRLs and tail lamps",
+      "Flush door handles",
+      "Aero alloy wheels"
+    ],
+    "interior": [
+      "Premium sustainable upholstery",
+      "Ambient lighting",
+      "Flat-bottom steering wheel"
+    ]
+  },
+  "safety": {
+    "gncap_rating": "Expected 5-star",
+    "airbags": 6,
+    "safetyTechs": [
+      "ADAS",
+      "Electronic Stability Control",
+      "Automatic Emergency Braking",
+      "Lane Keep Assist"
+    ]
+  },
+  "gallery": {
+    "exterior": [
+      "https://via.placeholder.com/400x300?text=Sierra+Front",
+      "https://via.placeholder.com/400x300?text=Sierra+Side",
+      "https://via.placeholder.com/400x300?text=Sierra+Rear"
+    ],
+    "interior": [
+      "https://via.placeholder.com/400x300?text=Sierra+Dashboard",
+      "https://via.placeholder.com/400x300?text=Sierra+Interior"
+    ]
+  },
+  "comparison": [
+    { "model": "Tata Sierra EV", "price": "15.0L", "range": 500, "safety": 90, "power": 170, "features": 88 },
+    { "model": "MG ZS EV", "price": "18.98L", "range": 461, "safety": 85, "power": 176, "features": 82 },
+    { "model": "Hyundai Kona EV", "price": "23.84L", "range": 452, "safety": 83, "power": 136, "features": 80 }
+  ]
+}
+]
+}

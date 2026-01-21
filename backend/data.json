@@ -1,0 +1,28 @@
+{
+  "users": [
+    { "role": "admin", "email": "raj@test.com", "password": "123456" },
+    { "role": "admin", "email": "jayesh@test.com", "password": "123456" },
+    {"role": "admin", "email": "gargii@test.com", "password":"123456"},
+    {"role": "user", "email": "t@test.com", "password":"123456"},
+    { "role": "user", "email": "alice@example.com", "password": "password1" },
+    { "role": "user", "email": "bob@example.com", "password": "password2" },
+    { "role": "user", "email": "charlie@example.com", "password": "qwerty" },
+    { "role": "user", "email": "diana@example.com", "password": "user123" },
+    { "role": "user", "email": "eve@example.com", "password": "letmein" },
+    { "role": "user", "email": "frank@example.com", "password": "pass123" },
+    { "role": "user", "email": "grace@example.com", "password": "secure456" },
+    { "role": "user", "email": "henry@example.com", "password": "mypassword" },
+    { "role": "user", "email": "isabel@example.com", "password": "rootpass" },
+    { "role": "user", "email": "jack@example.com", "password": "jackpass" },
+    { "role": "user", "email": "kate@example.com", "password": "kate123" },
+    { "role": "user", "email": "leo@example.com", "password": "leo789" },
+    { "role": "user", "email": "mia@example.com", "password": "mia456" },
+    { "role": "user", "email": "nick@example.com", "password": "nickpass" },
+    { "role": "user", "email": "olivia@example.com", "password": "olivia789" },
+    { "role": "user", "email": "peter@example.com", "password": "peterpass" },
+    { "role": "user", "email": "quinn@example.com", "password": "quinn123" },
+    { "role": "user", "email": "rachel@example.com", "password": "rachel321" },
+    { "role": "user", "email": "sam@example.com", "password": "sam654" },
+    { "role": "user", "email": "tina@example.com", "password": "tina654" }
+  ]
+}
